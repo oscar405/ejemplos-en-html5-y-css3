@@ -1,0 +1,24 @@
+/*Centro de Biotecnologia Agropecuario (CBA)
+ADSO Analisis y desarrollo de software 
+Autor:oscar duvan ortiz velandia 
+ficha:2070980
+fecha de creacion:16/febrero/2022
+fecha de modificacion:23/febrero/2022*/
+
+body{ 
+    background-color: rgb(147, 236, 225);
+} /*en este espacio le cambie el color con background-color le di un color lavander*/
+
+#tit{
+    font-size: large; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(22, 0, 22);
+} /*aqui le asigne el tipo de letra, grande, y de color magenta oscuro*/
+
+#duvan{
+    width: 700px;
+    height: 650px;
+    background-color: rgb(204, 135, 118);
+    margin-right: auto;
+    margin-left: auto;
+} /*le di el tamaño de pixeles que queria para mi container el color y me lo ubicara automaticamente*/

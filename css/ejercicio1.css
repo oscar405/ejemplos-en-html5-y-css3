@@ -1,0 +1,30 @@
+/*Centro de biotecnologia agropecuario 
+Analisis y desarrollo de software 
+Ficha:24709780
+Autor:oscar duvan ortiz velandia
+fecha de creacion:  20 marzo 2022
+fecha de actualizacion: 20 marzo 2022*/
+
+body {
+    background-color:rgb(92, 228, 74);
+} 
+
+#tit {
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(66, 66, 146)
+} 
+
+
+.ADSO{
+    color: rgb(73, 30, 52);
+}
+
+#container{
+    width: 500px;
+    height: 550px;
+    background-color: rgb(15, 17, 134);
+    margin-left: auto;
+    margin-right: auto;
+}
+    

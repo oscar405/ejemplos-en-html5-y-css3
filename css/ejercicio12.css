@@ -1,0 +1,24 @@
+/*Centro de biotecnologia agropecuario 
+Analisis y desarrollo de software 
+Ficha:24709780
+Autor:OSCAR DUVAN ORTIZ VELANDIA  
+fecha de creacion: 16 frebrero 2022
+fecha de actualizacion: 23 febrero 2022*/
+
+body{
+    background-color: rgb(112, 216, 193);
+}/*en este espacio quiero cambiar  el color de fondo de la pagina, para esto udo background*/
+
+.tit{
+    font-size: large;
+    font-family:initial;
+    color: rgb(22, 17, 54);
+}
+
+#MOMO{
+    width: 860px;
+    height: 450px;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+}

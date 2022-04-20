@@ -1,0 +1,28 @@
+/*Centro de Biotecnologia Agropecuario (CBA)
+ADSO Analisis y desarrollo de software 
+Autor: oscar duavn ortiz velandia
+ficha:2070980
+*/
+
+body{
+    background-color:rgb(91, 121, 119);
+}/*asigno el color de fondo de la pagina*/
+
+#tit{
+    font-size: large;
+    font-family:monospace;
+    color: rgb(0, 0, 0);
+}/*asigno el color de la letra tamaño y tipo*/
+
+.cosmos{
+    color:rgb(39, 42, 43);
+}
+
+#caos{
+    width: 850px;
+    height: 655px;
+    background-color: rgb(95, 53, 36);
+    margin-left: auto;
+    margin-right: auto;
+}/*Asigne el color del container di la orden de ubicarlo en auto elegi el tamaño en pixeles de como lo queria y le di el color que yo deseaba*/
+

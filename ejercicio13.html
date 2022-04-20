@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--Centro de Biotecnologia Agropecuario (CBA)
+ADSO Análisis y desarrollo de software
+Ficha:2470980
+Autor: oscar duvan ortiz velandia
+Fecha de inicio:16/febrero/2022
+Fecha de modificacion:22/febrero/2022-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rellena tu CV </title>
+    <link rel="icon" href="imagenes/11.jpg">
+    <link rel="stylesheet" href="css/ejercicio13.css">
+</head>
+<body>
+    <div id="meme">
+        <h3 class="tit"> Rellena tu Cv</h3>
+    <form action="/php/insertar_cv.php" method="post" enctype="multipart/from-data">
+        Nombre <br/>
+        <input type="text" name="nombre" value=""size="20" maxlenght="30"/>
+        <br/>
+        Apellidos <br/>
+        <input type="text" name="apellidos" value=""size="50" maxlenght="80"/>
+        <br/>
+        Contraseña <br/>
+        <input type="text" name="dni" value="" maxlength="10"/>
+        <br/>
+        DNI <br/>
+        <input type="text" name="dni" value="" size="10" maxlenght="9"/>
+        <br/>
+        Sexo <br/>
+        <input type="radio" name="sexo" value="hombre" checked="checked"/> Hombre <br/>
+        <input type="radio" name="sexo" value="mujer"/>
+        <br/><br/>
+        Incluir mi foto <input type="file" name="foto"/>
+        <br/><br/>
+        <input name="suscribir" type="checkbox" value="suscribir" checked="checked"/> Suscribirme al boletín de novedades
+        <br/><br/>
+        <input type="submit" name="enviar" value="Guardar cambios"/>
+        <input type="reset" name="limpiar" value="Borrarlos datos introducidos"/>
+        </form>
+
+    </div>
+    
+        </body>
+</body>
+</html>
+<!--<h3>: subtitulo dentro de h2 
+        <formation>: Define un formulario
+        <br>: cambio de linea
+        <input type text>: crean campos de texto básicos de una sola línea
+        <input type password>:proporcionan una forma para que el usuario ingrese una contraseña de manera segura
+        <input checkbox>:se representan de forma predeterminada como casillas que se marcan cuando se activan
+        <input submit>: se representan como botones
+        <input reset>: se representan como botones, con un click controlador de eventos predeterminado que restablece todas las entradas en el formulario a sus valores iniciales-->

@@ -1,0 +1,29 @@
+/*Centro de biotecnologia agropecuario 
+Analisis y desarrollo de software 
+Ficha:24709780
+Autor:Oscar duvan ortiz velandia
+fecha de creacion: 16 frebrero 2022
+fecha de actualizacion: 23 febrero 2022*/
+
+body {
+    background-color: rgb(17, 175, 122);
+} /*cambio el fondo del color de pantalla por azul oscuro lo hago con body- background color*/
+
+#tit {
+    font-size:medium;
+    font-family:serif;
+    color:rgb(11, 11, 12);
+} 
+
+.dos{
+    color:rgb(2, 36, 36);
+} /* di el color al subtitulo llendo a h2 de html asi: <h2 class="dos" y luego en la carpeta css coloque como lo nombre en html
+ adicionando un punto al inicio de la palabra y puse el color que desear*/
+
+ #oscar{ 
+width: 800px;
+height: 600px;
+background-color: rgb(231, 213, 216);
+margin-left: auto;
+margin-right: auto;
+ } /* aqui ubique el container del tamaño deseado le di un color y le dije al ordenador que lo ubicara*/

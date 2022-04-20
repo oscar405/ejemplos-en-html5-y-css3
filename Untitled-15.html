@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--Centro de Biotecnologia Agropecuario (CBA)
+ADSO Análisis y desarrollo de software
+Ficha:2470980
+Autor: oscar duvan ortiz velandia
+Fecha de inicio:16/febrero/2022
+Fecha de modificacion:22/febrero/2022-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Información sobre el producto</title>
+    <link rel="icon" href="imagenes/13.jpg">
+    <link rel="stylesheet" href="css/ejercicio15.css">
+</head>
+<body>
+    <div class="manzana">
+        <h3 id="tit">Información sobre el producto</h3>
+        <form action="/php/insertar_subasta.php"method="post"enctype="multipart/form-data">
+            <fieldset>
+                <legend>Datos básicos</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre"size="50"maxlength="250" />
+                <label for="descripcion">Descripción</label>
+                <textarea name="descripcion" id="descripcion"col="40"row="5"></textarea>
+                <br>Foto</br>
+                <input type="file" name="foto" />
+                <input name="contador" type="checkbox" value="si" /> Añadir contador de visitas
+            </fieldset>
+            <fieldset>
+                <legend>Datos económicos</legend>
+                <label for="precio">Precio</label>
+                <input type="text" size="5" id="precio" name="precio" />
+                <label for="impuestos">Impuestos</label>
+                <select id="impuestos" name="impuestos">
+                    <option value="4">4%</option>
+                    <option value="7">7%</option>
+                    <option value="16">16%</option>
+                    <option value="25">25%</option>
+                </select>
+                <label><br>Promoción</br></label>
+                <input type="radio" name="promocion" value="ninguno" checked="checked" /><br>Ninguno</br>
+                <input type="radio" name="promocion" value="portes" /><br>Transporte gratuito</br>
+                <input type="radio" name="promoción" value="descuento" /> Descuento 5%
+            </fieldset>
+        </form>
+
+    </div>
+   
+</body>
+</html>
+<!--Etiquetas usadas:
+<label>:representa una etiqueta para un elemento de interfaz de usuario
+<select>representa un control que muestra un menu de opciones <option>
+<fieldset>:permite organizar en grupos los campos de un formulario 
+<h3>: se usan para titulos de subsecciones 
+<input type text>: crean campos de texto básicos de una sola línea-->
